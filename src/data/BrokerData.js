@@ -55,16 +55,16 @@
  */
 const brokerProfile = {
   id: crypto.randomUUID(),
-  name: 'Winnetou Soares Martins',
-  CRECI: '64.763-F',
-  profileImage: '/broker/tom2.png',
+  name: 'Cris Razera',
+  CRECI: '26.981-F',
+  profileImage: '/broker/Cristiane.png',
   description: {
     title:
-      '"Pai do Bento e marido da Luciana, praticante de artes marciais e nas horas vagas se arrisca a cantar, tocando violão."',
+      'Apaixonada por corrida de rua e dedicada mãe do adorável felino Fred. No pessoal, adora arrancar risadas de quem a rodeia.',
     paragraph: [
-      'Apresento-me como seu corretor de imóveis, especializado em oferecer mais do que propriedades, vendo informações estratégicas e oportunidades de investimento sólido no dinâmico mercado imobiliário.',
-      'Estou aqui para ser seu guia confiável nessa jornada, proporcionando acesso aos insights valiosos sobre tendências do mercado, recomendações personalizadas para investimentos sólidos e orientação em cada etapa, desde pesquisa até a negociação de sucesso para as partes envolvidas.',
-      'Lembre-se: Na hora de negociar, solicite as certidões negativas necessárias para a realização da escritura.',
+      'Com mais de 11 anos de experiência no mercado imobiliário, sendo 6 anos como corretora autônoma, procuro oferecer um atendimento baseado em conhecimento sólido e comprometimento.',
+      'Seja para comprar, vender ou investir, minha abordagem personalizada e profissional garante resultados notáveis. Conte comigo para transformar suas transações imobiliárias em experiências fluidas e bem-sucedidas.',
+      'Sua parceira confiável na realização dos seus sonhos imobiliários.',
     ],
   },
   address: {
@@ -74,12 +74,11 @@ const brokerProfile = {
     city: 'Florianópolis',
     state: 'SC',
   },
-  phone: '(48) 98826-2951 ',
-  email: 'winnetou@rkimoveis.com.br',
+  phone: '(48) 98415.2959',
+  email: 'crisrazera@rkimoveis.com.br',
   clientReview: {
-    review:
-      'Eu e meu marido adquirimos um imóvel através do corretor Winnetou Martins e fomos muito bem tratados do início até a conclusão da compra. Ele é hábil, competente e atencioso.',
-    client: 'Valzira Souza - Advogada',
+    review: '',
+    client: '',
   },
   comments: [
     {
