@@ -26,11 +26,10 @@ const properties = [
     title: 'Solar das Bromélias',
     region: 'Ingleses',
     description: `IMÓVEL COM MATRÍCULA
-Linda unidade com 01 dormitório, sendo 01 suíte. Além disso, oferece comodidade com 01 vaga de garagem e um hobby box para armazenamento adicional.
-Totalmente mobiliada com muito bom gosto e sofisticação.
-O imóvel possui uma posição solar privilegiada, leste permitindo uma ótima iluminação e ventilação natural em todos os cômodos do imóvel.
-O condomínio, por sua vez, oferece uma área de lazer completa. Quer saber mais detalhes sobre este imóvel? Fale com a gente, estamos sempre conectados pelo celular, whats, e-mail, ou se preferir venha tomar um café!
-Informações sujeitas a alterações sem aviso prévio`,
+    Totalmente mobiliada com muito bom gosto e sofisticação.
+    Situada na área nobre da praia dos Ingleses, a localização é bastante tranquila e próxima ao comércio local, proporcionando assim um ambiente agradável.
+    O imóvel possui uma posição solar privilegiada, leste permitindo uma ótima iluminação e ventilação natural em todos os cômodos do imóvel.
+    O condomínio, por sua vez, oferece uma área de lazer completa, proporcionando opções de entretenimento e relaxamento para você e sua família.`,
     price: 'R$ 565.000,00',
     details: {
       square: '43,10 m²',
@@ -55,11 +54,16 @@ Informações sujeitas a alterações sem aviso prévio`,
     title: 'Res. Miragem',
     region: 'Ingleses',
     description: `IMÓVEL COM MATRÍCULA
-Localizado entre o mar e as montanhas, o Residencial Miragem, oferece padrão de qualidade na construção, infraestrutura de lazer e conforto para você e sua família.
-Apartamento de 2 quartos, sendo 1 suíte, uma vaga de garagem com mais de 81 m², com jardim particular gramado com mais de 47m².
-Fale com um de nossos corretores e visite este imóvel. Estamos sempre conectados pelo celular, whats e e-mail. Se preferir, venha tomar um café. Estamos localizados próximo à praia, na região das gaivotas, nos Ingleses - Florianópolis/SC.
-Aceita financiamento bancário.
-Informações sujeitas a alterações sem aviso prévio`,
+    Localizado entre o mar e as montanhas, o Residencial Miragem, oferece padrão de qualidade na construção, aliado a uma infraestrutura de lazer que garantirá diversão e conforto para você e sua família.
+    Diferenciais:
+    Captação de água da chuva;
+    Controle de acesso livre de chaves;
+    Infraestrutura para ar condicionado;
+    Áreas de lazer decoradas;
+    Isolamento acústico.
+    Apartamento térreo tipo garden. Face norte.
+    Apartamento de 2 quartos, sendo 1 suíte, uma vaga de garagem com mais de 81 m², com jardim particular gramado com mais de 47m².
+    Aceita financiamento bancário.`,
     price: 'R$ 790.000,00',
     details: {
       square: '81,89 m²',
@@ -84,11 +88,11 @@ Informações sujeitas a alterações sem aviso prévio`,
     title: 'Com. Osvaldo Gomez',
     region: 'Ingleses',
     description: `IMÓVEL COM MATRÍCULA
-EXCLUSIVIDADE RK IMÓVEIS - Apartamento SEMI MOBILIADO com 02 dormitórios, sendo 01 suíte. banheiro social, sala de estar, cozinha conjugada com sala de jantar, lavanderia, sacada com churrasqueira e pia, vaga de garagem e hobbybox.
-Localizado na área nobre dos Ingleses, cerca de 600 metros do mar. O condomínio possui piscina, salão de festas mobiliado e equipado, elevador, interfone e portão eletrônico.
-Estamos sempre conectados pelo celular, whatsapp e e-mail.
-Venha tomar um café. Estamos localizados próximo à praia, na região das gaivotas, nos Ingleses – Florianópolis/SC.
-Informações sujeitas a alterações sem aviso prévio.`,
+    EXCLUSIVIDADE RK IMÓVEIS
+    Apartamento SEMIMOBILIADO com 02 dormitórios, sendo 01 suíte. Banheiro social, sala de estar, cozinha conjugada com sala de jantar, lavanderia, sacada com churrasqueira e pia, vaga de garagem e hobby box.
+    Imóvel frente rua
+    Área privativa de 80,89 m²
+    Residencial localizado na área nobre da Praia Ingleses, cerca de 600m do mar, e bem próximo ao centrinho da praia. O condomínio possui piscina, salão de festas mobiliado e equipado, elevador, interfone e portão eletrônico.`,
     price: 'R$ 700.000,00',
     details: {
       square: '80,89 m²',
@@ -114,12 +118,11 @@ Informações sujeitas a alterações sem aviso prévio.`,
     title: 'Res. Ilha de Citera',
     region: 'Ingleses',
     description: `IMÓVEL COM MATRÍCULA
-Incorporação Imobiliária nº R-168.700 do Cartório do 2º Ofício de Registro de Imóveis de Florianópolis – SC.
-Entrega prevista MARÇO/2024
-Conheça o mais novo empreendimento na Praia dos Ingleses - RESIDENCIAL ILHA DE CITERA está localizado na entrada da praia - próximo a melhor região da praia. Invista em imóvel na planta!
-Apartamento NOVO de 03 dormitórios sendo 01 suíte, banheiro social, sala de estar e jantar, cozinha, área de serviço e sacada com churrasqueira a carvão e vaga de garagem.
-Ótimo acabamento e com excelentes condições de pagamento!
-Informações sujeitas a alterações sem aviso prévio`,
+    Incorporação Imobiliária nº R-168.700 do Cartório do 2º Ofício de Registro de Imóveis de Florianópolis – SC.
+    Entrega prevista MARÇO/2024
+    Conheça o mais novo empreendimento na Praia dos Ingleses - RESIDENCIAL ILHA DE CITERA está localizado na entrada da praia - próximo a melhor região da praia. Invista em imóvel na planta!
+    Apartamento NOVO de 03 dormitórios sendo 01 suíte, banheiro social, sala de estar e jantar, cozinha, área de serviço e sacada com churrasqueira a carvão e vaga de garagem.
+    Ótimo acabamento e com excelentes condições de pagamento!`,
     price: 'R$ 669.000,00',
     details: {
       square: '81,43 m²',
@@ -145,11 +148,9 @@ Informações sujeitas a alterações sem aviso prévio`,
     title: 'Della Giustina',
     region: 'Ingleses',
     description: `IMÓVEL COM MATRÍCULA
-Apartamento MOBILIADO e decorado com 03 dormitórios, sendo 01 suíte, banheiro social, ampla sala de estar conjugada com cozinha, área de serviço separada, sacada com churrasqueira, hobbybox e vaga de garagem.
-Localizado na área nobre dos Ingleses, cerca de 700m do mar, possui área de lazer com piscina, playground e salão de festas, além de portão eletrônico e interfone com acesso por TAG.
-Estamos sempre conectados pelo celular, whats e e-mail.
-Venha tomar um café. Estamos localizados próximo à praia, na região das gaivotas, nos Ingleses – Florianópolis/SC.
-Informações sujeitas a alterações sem aviso prévio`,
+    Apartamento MOBILIADO e decorado com 03 dormitórios, sendo 01 suíte, banheiro social, ampla sala de estar conjugada com cozinha, área de serviço separada, sacada com churrasqueira, hobbybox e vaga de garagem.
+    IMÓVEL finamente decorado, com móveis planejados em todo apartamento.
+    RESIDENCIAL DELLA GIUSTINA está localizado na área nobre da Praia dos Ingleses, cerca de 700 metros do mar, possui área de lazer com piscina, playground e salão de festas, além de portão eletrônico e interfone com acesso por TAG.`,
     price: 'R$ 899.000,00',
     details: {
       square: '87,86 m²',
