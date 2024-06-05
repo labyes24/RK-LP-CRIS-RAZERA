@@ -147,9 +147,131 @@ const propertiesPT = [
   },
 ]
 
-/**  @type {Array<Property>} The Portuguese properties data */
+/**  @type {Array<Property>} The Spanish properties data */
 const propertiesES = [
-  // TODO: Add Spanish properties text
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '9781',
+    title: 'Solar das Bromélias',
+    region: 'Ingleses',
+    description:
+      '**PROPIEDAD CON REGISTRO**\n\n Totalmente amueblado con mucho gusto y sofisticación. \n\n Ubicado en la zona privilegiada de Playa Ingleses, la ubicación es muy tranquila y cerca de los comercios locales, proporcionando así un ambiente agradable. \n\n La propiedad tiene una posición solar privilegiada, leste, lo que permite una excelente iluminación y ventilación natural en todos los ambientes de la propiedad.\n\n El condominio, a su vez, ofrece una completa zona de ocio, brindando opciones de entretenimiento y relajación para usted y su familia.',
+    price: 'R$ 565.000,00',
+    details: {
+      square: '43,10 m²',
+      rooms: '1',
+      bathrooms: '1',
+      garage: '1',
+    },
+    pictures: [
+      '/properties/001A-BROMELIAS.webp',
+      '/properties/001B-BROMELIAS.webp',
+      '/properties/001C-BROMELIAS.webp',
+      '/properties/001D-BROMELIAS.webp',
+      '/properties/001E-BROMELIAS.webp',
+      '/properties/001F-BROMELIAS.webp',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '8870',
+    title: 'Res. Miragem',
+    region: 'Ingleses',
+    description:
+      '**PROPIEDAD CON REGISTRO**\n\n Ubicado entre el mar y la montaña, Residencial Miragem ofrece estándares de calidad en la construcción, combinados con una infraestructura de ocio que garantizará diversión y comodidad para usted y su familia.\n\n Diferenciadores:\n\n Agua de lluvia en las cosechas;\n\n Control de acceso sin claves;\n\n Infraestructura para aire acondicionado;\n\nZonas de ocio decoradas;\n\n Insonorización.\n\n Apartamento en planta baja con jardín. Cara norte.\n\n Apartamento de 2 habitaciones, 1 suite, plaza de aparcamiento de más de 81 m², con jardín privado de césped de más de 47 m².\n\n Se acepta financiación bancaria.',
+    price: 'R$ 790.000,00',
+    details: {
+      square: '81,89 m²',
+      rooms: '2',
+      bathrooms: '2',
+      garage: '1',
+    },
+    pictures: [
+      '/properties/002a-Miragem.webp',
+      '/properties/002b-Miragem.webp',
+      '/properties/002c-Miragem.webp',
+      '/properties/002d-Miragem.webp',
+      '/properties/002e-Miragem.webp',
+      '/properties/002f-Miragem.webp',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '9571',
+    title: 'Com. Osvaldo Gomez',
+    region: 'Ingleses',
+    description:
+      '**PROPIEDAD CON REGISTRO**\n\n **EXCLUSIVIDAD RK IMÓVEIS**\n\n Apartamento SEMI AMUEBLADO de 02 habitaciones, 01 suite. baño de visitas, sala, cocina combinada con comedor, cuarto de lavado, balcón con asador y fregadero, estacionamiento y hobby box.\n\n Propiedad frente a la calle! \n\n Área privada de 80,89 m²\n\n Está ubicado en la zona privilegiada de Praia dos Ingleses, a unos 600 metros del mar, y muy cerca del centro de la playa. El condominio cuenta con piscina, salón de fiestas amueblado y equipado, ascensor, intercomunicador y portón electrónico.',
+    price: 'R$ 700.000,00',
+    details: {
+      square: '80,89 m²',
+      rooms: '2',
+      bathrooms: '2',
+      garage: '1',
+    },
+    pictures: [
+      '/properties/003a-Osvaldo.webp',
+      '/properties/003b-Osvaldo.webp',
+      '/properties/003c-Osvaldo.webp',
+      '/properties/003d-Osvaldo.webp',
+      '/properties/003e-Osvaldo.webp',
+      '/properties/003f-Osvaldo.webp',
+      '/properties/003g-Osvaldo.webp',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '8068',
+    title: 'Res. Ilha de Citera',
+    region: 'Ingleses',
+    description:
+      '**PROPIEDAD CON REGISTRO**\n\n Constitución Inmobiliaria N° R-168.700 de la Oficina Registral del 2º Registro de la Propiedad de Florianópolis – SC.\n\n Entrega prevista MARZO/2024\n\n Descubra el desarrollo más nuevo en Praia dos Ingleses: RESIDENCIAL ILHA DE CITERA está ubicado en la entrada de la playa, cerca de la mejor zona de la playa. ¡Invierta en propiedades sobre plano!\n\n Departamento NUEVO con 03 habitaciones, 01 suite, baño de visita, sala comedor, cocina, área de lavado y balcón con asador de carbón y estacionamiento.\n\n ¡Excelente acabado y excelentes condiciones de pago!',
+    price: 'R$ 669.000,00',
+    details: {
+      square: '81,43 m²',
+      rooms: '3',
+      bathrooms: '2',
+      garage: '1',
+    },
+    pictures: [
+      '/properties/004b-Citera.webp',
+      '/properties/004a-Citera.webp',
+      '/properties/004c-Citera.webp',
+      '/properties/004d-Citera.webp',
+      '/properties/004e-Citera.webp',
+      '/properties/004f-Citera.webp',
+      '/properties/004g-Citera.webp',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '9396',
+    title: 'Della Giustina',
+    region: 'Ingleses',
+    description:
+      '**PROPIEDAD CON REGISTRO**\n\n Departamento AMUEBLADO y decorado con 03 habitaciones, 01 suite, baño de visitas, amplio living combinado con cocina, lavadero independiente, balcón con asador, hobbybox y estacionamiento. \n\n Propiedad finamente decorada, con muebles a medida en todo el departamento.\n\n RESIDENCIAL DELLA GIUSTINA está ubicado en la zona privilegiada de Praia dos Ingleses, a unos 700 metros del mar, cuenta con una zona de ocio con piscina, parque infantil y salón de fiestas, además de portón electrónico e intercomunicador con acceso por TAG.',
+    price: 'R$ 899.000,00',
+    details: {
+      square: '87,86 m²',
+      rooms: '3',
+      bathrooms: '2',
+      garage: '1',
+    },
+    pictures: [
+      '/properties/005a-Giustina.webp',
+      '/properties/005b-Giustina.webp',
+      '/properties/005c-Giustina.webp',
+      '/properties/005d-Giustina.webp',
+      '/properties/005e-Giustina.webp',
+      '/properties/005f-Giustina.webp',
+      '/properties/005g-Giustina.webp',
+    ],
+  },
 ]
 
 /**
@@ -162,7 +284,7 @@ const propertiesES = [
 /** @type {PropertiesData} The properties data */
 const properties = {
   pt: propertiesPT,
-  // es: propertiesES,
+  es: propertiesES,
 }
 
 /**
